@@ -1,0 +1,107 @@
+Batch Password Audit Results:
+----------------------------------------
+
+🔐 Password 1: krishna
+Strength  : Weak
+Breach status  : Found in True breaches
+----------------------------------------
+
+🔐 Password 2: 123456
+Strength  : Weak
+Breach status  : Found in True breaches
+----------------------------------------
+
+🔐 Password 3: Ad@rsh9876
+Strength  : Excellent
+Breach status  : Not found in known breaches
+----------------------------------------
+
+🔐 Password 4: mypassword
+Strength  : Weak
+Breach status  : Found in True breaches
+----------------------------------------
+
+🔐 Password 5: india123
+Strength  : Moderate
+Breach status  : Found in True breaches
+----------------------------------------
+
+🔐 Password 6: bharat
+Strength  : Weak
+Breach status  : Found in True breaches
+----------------------------------------
+
+🔐 Password 7: krishna
+Strength  : Weak
+Breach status  : Found in True breaches
+----------------------------------------
+
+🔐 Password 8: ganesh
+Strength  : Weak
+Breach status  : Found in True breaches
+----------------------------------------
+
+🔐 Password 9: delhi123
+Strength  : Moderate
+Breach status  : Found in True breaches
+----------------------------------------
+
+🔐 Password 10: mumbai123
+Strength  : Moderate
+Breach status  : Found in True breaches
+----------------------------------------
+
+🔐 Password 11: honeydew
+Strength  : Weak
+Breach status  : Found in True breaches
+----------------------------------------
+
+🔐 Password 12: hooters1
+Strength  : Moderate
+Breach status  : Found in True breaches
+----------------------------------------
+
+🔐 Password 13: hoes
+Strength  : Very weak
+Breach status  : Found in True breaches
+----------------------------------------
+
+🔐 Password 14: howie
+Strength  : Very weak
+Breach status  : Found in True breaches
+----------------------------------------
+
+🔐 Password 15: hevnm4
+Strength  : Moderate
+Breach status  : Found in True breaches
+----------------------------------------
+
+🔐 Password 16: hugohugo
+Strength  : Weak
+Breach status  : Found in True breaches
+----------------------------------------
+
+🔐 Password 17: eighty
+Strength  : Weak
+Breach status  : Found in True breaches
+----------------------------------------
+
+🔐 Password 18: epson
+Strength  : Very weak
+Breach status  : Found in True breaches
+----------------------------------------
+
+🔐 Password 19: evangeli
+Strength  : Weak
+Breach status  : Found in True breaches
+----------------------------------------
+
+🔐 Password 20: eeeee1
+Strength  : Moderate
+Breach status  : Found in True breaches
+----------------------------------------
+
+🔐 Password 21: eyphed
+Strength  : Weak
+Breach status  : Found in True breaches
+----------------------------------------
