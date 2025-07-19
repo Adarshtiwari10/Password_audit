@@ -15,40 +15,68 @@ A Python-based tool for auditing password strength, checking for breaches, gener
 ## Directory Structure
 
 ```
-.gitignore
-.python-version
-audit_report.txt
-main.py
-pyproject.toml
-README.md
-uv.lock
-analyzer/
-    breach_checker.py
-    bulk_pwd_checker.py
-    generator.py
-    recommender.py
-    strength_checker.py
-data/
-    common_passwords.txt
-sample/
-    password.txt
+password_audit/
+├── .gitignore                 # Git ignore rules
+├── .python-version           # Python version specification
+├── README.md                 # Project documentation
+├── main.py                   # Main application entry point
+├── pyproject.toml            # Project configuration and dependencies
+├── uv.lock                   # Dependency lock file
+├── requirements.txt          # Legacy pip requirements
+├── analyzer/                 # Core analysis modules
+│   ├── __init__.py
+│   ├── breach_checker.py     # Have I Been Pwned API integration
+│   ├── bulk_pwd_checker.py   # Batch processing functionality
+│   ├── generator.py          # Secure password generation
+│   ├── recommender.py        # Security recommendations engine
+│   └── strength_checker.py   # Password strength analysis
+├── data/                     # Static data files
+│   └── common_passwords.txt  # Database of common/weak passwords
+├── sample/                   # Example input files
+│   └── passwords.txt         # Sample password list for testing
+└── reports/                  # Generated audit reports
+    └── audit_report.txt      # Sample output report
 ```
 
 ## Installation
 
-1. **Clone the repository:**
-   ```sh
-   git clone https://github.com/yourusername/password_audit.git
-   cd password_audit
-   ```
+``` sh
+ Prerequisites
 
-2. **Install dependencies:**
-   ```sh
-   pip install -r requirements.txt
-   ```
-   Or, if using Poetry:
-   ```sh
-   poetry install
+Python 3.8 or higher
+Internet connection (for breach checking)
+
+Method 1: Using pip
+bash# Clone the repository
+git clone https://github.com/yourusername/password_audit.git
+cd password_audit
+
+# Create virtual environment (recommended)
+python -m venv venv
+source venv/bin/activate  # On Windows: venv\Scripts\activate
+
+# Install dependencies
+pip install -r requirements.txt
+
+
+Method 2: Using Poetry 
+bash# Clone the repository
+git clone https://github.com/yourusername/password_audit.git
+cd password_audit
+
+# Install with Poetry
+poetry install
+poetry shell
+
+
+Method 3: Using UV (Fastest)
+bash# Clone the repository
+git clone https://github.com/yourusername/password_audit.git
+cd password_audit
+
+# Install with UV
+uv sync
+source .venv/bin/activate
    ```
 
 ## Usage
@@ -120,9 +148,6 @@ Recommendations:
 - **Common Passwords List**: Update `data/common_passwords.txt` to customize the list of common passwords.
 - **Batch Input**: Place your password files in the `sample/` directory for batch processing.
 
-🤝 Contributing
-
-Pull requests and suggestions are welcome! Please open issues for bugs or feature requests.
 
 📄 License
 
