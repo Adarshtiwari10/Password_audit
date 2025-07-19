@@ -110,24 +110,24 @@ Recommendations:
 - Your password looks strong! great work!
 ```
 
-## API Integration
+🔗 API Integration
 
 - Uses the [Have I Been Pwned](https://haveibeenpwned.com/API/v3#PwnedPasswords) API for breach checking.
 - No passwords are sent directly; only partial hashes are used for privacy.
 
-## Customization
+⚙️ Customization
 
 - **Common Passwords List**: Update `data/common_passwords.txt` to customize the list of common passwords.
 - **Batch Input**: Place your password files in the `sample/` directory for batch processing.
 
-## Contributing
+🤝 Contributing
 
 Pull requests and suggestions are welcome! Please open issues for bugs or feature requests.
 
-## License
+📄 License
 
-MIT License
+This project is licensed under the MIT License.
 
 ---
 
-**Author:** Your
+**Author:** Adarsh Tiwari
